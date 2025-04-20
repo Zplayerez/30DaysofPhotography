@@ -45,8 +45,7 @@ private val DarkColorScheme = darkColorScheme(
 @Composable
 fun _30DaysOfPhotographyTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = false, // 将默认值改为false以使用我们自定义的颜色方案
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {

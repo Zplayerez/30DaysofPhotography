@@ -8,7 +8,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.example.a30daysofphotography.R
 
-// 导入自定义字体
 val MontserratFontFamily = FontFamily(
     Font(R.font.montserrat_regular, FontWeight.Normal),
     Font(R.font.montserrat_medium, FontWeight.Medium),
@@ -21,9 +20,7 @@ val PlayfairDisplayFontFamily = FontFamily(
     Font(R.font.playfair_display_bold, FontWeight.Bold)
 )
 
-// 设置应用程序的Typography样式
 val Typography = Typography(
-    // 使用Playfair Display作为标题字体，增加艺术感
     headlineLarge = TextStyle(
         fontFamily = PlayfairDisplayFontFamily,
         fontWeight = FontWeight.Bold,
@@ -45,7 +42,6 @@ val Typography = Typography(
         lineHeight = 28.sp,
         letterSpacing = 0.sp
     ),
-    // 使用Montserrat作为正文字体，清晰易读
     bodyLarge = TextStyle(
         fontFamily = MontserratFontFamily,
         fontWeight = FontWeight.Normal,
