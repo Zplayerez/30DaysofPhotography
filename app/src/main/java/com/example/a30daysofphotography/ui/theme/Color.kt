@@ -2,10 +2,14 @@ package com.example.a30daysofphotography.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// 自定义浅色主题颜色
+val Primary = Color(0xFF1976D2)  // 蓝色基调
+val Secondary = Color(0xFF26A69A)  // 绿松石色
+val Tertiary = Color(0xFFEF6C00)  // 橙色
+val Background = Color(0xFFF8F8F8)  // 淡灰色背景
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// 自定义深色主题颜色
+val PrimaryDark = Color(0xFF90CAF9)  // 浅蓝色
+val SecondaryDark = Color(0xFF80CBC4)  // 浅绿松石色
+val TertiaryDark = Color(0xFFFFB74D)  // 浅橙色
+val BackgroundDark = Color(0xFF121212)  // 深灰色背景
